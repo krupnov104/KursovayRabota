@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/background1.png') no-repeat 0 0 / cover;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 80px;
+    background: #7A85EF;
+    display: flex;
+}
+
+.header_inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    gap: 250px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nomer {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name-pages {
+    color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #fff;
+    margin-bottom: 60px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pochta {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.graphic {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.left {
+    display: flex;
+    gap: 195px;
+}
+
+.container-contacts {
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 1497px;
+}
+
+
+footer {
+    width: auto;
+    background: #4BA0C5;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contakty {
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messengers {
+    width: 137px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomer-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}

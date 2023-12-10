@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/background1.png') no-repeat 0 0 / cover;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 80px;
+    background: #7A85EF;
+    display: flex;
+}
+
+.header_inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    /* margin-left: 119px; */
+    gap: 250px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nomer {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+    gap: 118px;
+}
+
+.name-pages {
+    color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    -webkit-text-stroke: 4px #fff;
+    margin-bottom: 60px;
+}
+
+.main-orange-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #ece143;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.main-white-text1 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.main-text {
+    width: 900px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container-text {
+    margin-bottom: 60px;
+}
+
+.parameter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.parameters-text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.parameters {
+    display: flex;
+    gap: 30px;
+}
+
+.main-picture {
+    width: 662px;
+    height: 791px;
+    background: url('../img/Карта.png') no-repeat 0 0 / cover;
+}
+
+.ellipse1-4 {
+    width: 250px;
+    display: flex;
+    margin-left: 155px;
+}
+
+.ellipse1 {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: red;
+    margin-top: 100px;
+}
+
+.ellipse2 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 110px;
+}
+
+.ellipse3 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 165px;
+}
+
+.ellipse4 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 120px;
+}
+
+.ellipse5-8 {
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 110px;
+}
+
+.ellipse5 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: 440px;
+}
+
+.ellipse6 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: 250px;
+}
+
+.ellipse7 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.ellipse8 {
+    width: 31px;
+    height: 31px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 40px;
+    margin-left: 170px;
+    
+}
+
+.ellipse7-8 {
+    margin-top: 160px;
+}
+
+.ellipse1:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse2:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse3:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse4:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse5:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse6:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse7:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+.ellipse8:hover {
+    background-color: #00A3FF;
+    transition: 0.4s;
+}
+
+.colored {
+	background-color: #00A3FF;
+}
+
+.colored1 {
+	background-color: red;
+}
+
+
+footer {
+    width: auto;
+    background: #4BA0C5;
+    margin-top: 135px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contakty {
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messengers {
+    width: 137px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomer-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 425px) {
+    
+}

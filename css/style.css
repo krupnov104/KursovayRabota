@@ -1,0 +1,866 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/background1.png') no-repeat 0 0 / cover;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 80px;
+    background: #7A85EF;
+    display: flex;
+}
+
+.header_inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    gap: 250px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nomer {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 90px 0 0 0;
+    gap: 118px;
+}
+
+.name-aqua {
+    color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: normal;
+    -webkit-text-stroke: 4px #fff;
+}
+
+.main-orange-text {
+    color: #F4BF6F;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.main-orange-text1 {
+    width: 550px;
+    color: #F4BF6F;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.main-menu {
+    border-radius: 30px;
+    background: #FFF;
+    display: inline-flex;
+    height: 100px;
+    padding: 0 98px 0 97px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 250px;
+}
+
+.text-main-menu {
+    color: #009AAF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-menu {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.container-price {
+    width: 1436px;
+    margin: 0 auto;
+    margin-bottom: 209px;
+}
+
+
+.heading-price {
+    color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-text-stroke: 4px #fff;
+    text-align: end;
+}
+
+.card1 {
+    width: 1114px;
+    border-radius: 100px 0;
+    border: 10px solid #6FE8F0;
+    background: #FFF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card2 {
+    width: 651px;
+    border-radius: 100px 0;
+    border: 10px solid #6FE8F0;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    
+}
+
+.card3 {
+    width: 651px;
+    border-radius: 100px 0;
+    border: 10px solid #6FE8F0;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card2-card3 {
+    display: flex;
+    justify-content: space-between;
+    width: 1436px;
+    margin-top: 70px;
+}
+/*  */
+.swiper {
+    width: 312px;
+    height: 300px;
+    border-top-left-radius: 60px;
+
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 290px;
+    height: 290px;
+}
+
+.swiper--margin {
+    margin-left: 0px;
+}
+
+.text-card1 {
+    width: 800px;
+}
+
+.heading-card1{
+    color: #1B93B9;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.price-adult {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left-text-price {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.left-text-price span {
+    color: #575353;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rigth-text-price {
+    color: #1B93B9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-text-praice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.button-price-card1 {
+    text-align: center;
+}
+
+.text-price-card1 {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 70px;
+}
+
+.price-kids {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.price-baby {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 20px;
+}
+
+.down-text-card1 {
+    width: 693px;
+    color: #6C6969;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.spa-img img {
+    border-radius: 70px 0px;
+}
+
+.headin-card2 {
+    width: 152px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.headin-card2 span {
+    color: #1B93B9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price-card2 {
+    width: 190px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price-card2 span {
+    color: #299ABD;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price-card2 span1 {
+    color: #FF0606;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.main-text-card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-card-2--mod {
+    padding-right: 100px;
+}
+
+.price-card3 {
+    width: 320px;
+}
+
+.container-info {
+    width: 1680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.heading-info {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading-info1 {
+    width: 900px;
+    color: #FAA500;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main-text-info {
+    width: 774px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    width: auto;
+    background: #4BA0C5;
+    margin-top: 135px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contakty {
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messengers {
+    width: 137px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomer-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        padding: 90px 0 0 0;
+        gap: 30px;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    
+    .main {
+        max-width: 768px;
+    }
+    .main-picture img {
+        display: none;
+    }
+    .name-aqua {
+        font-size: 70px;
+        -webkit-text-stroke: 4px #fff;
+    }
+    .main-orange-text {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .main-orange-text1 {
+        width: 550px;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .main-knopka img{
+        max-width: 150px;
+    }
+    
+    .main-menu {
+        max-width: 670px;
+        height: 50px;
+        padding: 0 30px 0 30px;
+        margin-bottom: 240px;
+    }
+    
+    .text-main-menu {
+        font-size: 15px;
+    }
+    
+    .container-menu {
+        padding: 0;
+        max-width: 670px;
+        margin: 0 auto;
+    }
+        
+    .container-price {
+        max-width: 620px;
+        margin-bottom: 150px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .heading-price {
+        max-width: 620px;
+        font-size: 60px;
+        text-align: start;
+        margin-bottom: 30px;
+        
+    }
+    
+    .card1 {
+        max-width: 620px;
+        
+    }
+    
+    .card2 {
+        max-width: 620px;
+    }
+    
+    .card3 {
+        max-width: 620px;
+        border-radius: 100px 0;
+        border: 10px solid #6FE8F0;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .card2-card3 {
+        flex-direction: column;
+        max-width: 620px;
+        margin-top: 65px;
+        gap: 30px;
+    }
+    
+    .text-price-card1 {
+        padding: 10px;
+    }
+    
+    .down-text-card1 {
+        padding: 10px;
+    }
+    .price {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    #swiper-card1 {
+        margin-top: 70px;
+    }
+    
+    .text-card1 {
+        max-width: 300px;
+    }
+    
+    .heading-card1{
+        font-size: 20px;
+        text-align: end;
+        margin-bottom: 28px;
+    }
+    
+    .price-adult {
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    
+    .left-text-price {
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .left-text-price span {
+        color: #575353;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .rigth-text-price {
+        color: #1B93B9;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .main-text-praice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 23px;
+    }
+    
+    .button-price-card1 {
+        text-align: center;
+    }
+    
+    .text-price-card1 {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .price-kids {
+        width: 250px;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    
+    .price-baby {
+        width: 200px;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    
+    .down-text-card1 {
+        display: none;
+    }
+    
+    .headin-card2 {
+        width: 152px;
+        text-align: center;
+    }
+    
+    .container-card2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .price-card2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-price-card3 {
+        margin: 0 auto;
+    }
+    
+    .button-price-card2 {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .img-aqua img{
+        max-width: 650px;
+    }
+    
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+    }
+    
+    .heading-info {
+        font-size: 20px;
+    }
+    
+    .heading-info1 {
+        max-width: 600px;
+        font-size: 15px;
+    }
+    
+    .main-text-info {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 450px) {
+.main-container {
+    flex-direction: column;
+    padding: 90px 0 0 0;
+    gap: 30px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 450px;
+}
+.main-picture img {
+    display: none;
+}
+.name-aqua {
+    font-size: 40px;
+    -webkit-text-stroke: 4px #fff;
+}
+.main-orange-text {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.main-orange-text1 {
+    width: 550px;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.main-knopka img{
+    max-width: 150px;
+}
+
+.main-menu {
+    max-width: 370px;
+    height: 50px;
+    padding: 0 30px 0 30px;
+    gap: 15px;
+    margin-bottom: 280px;
+}
+
+.text-main-menu {
+    font-size: 11px;
+}
+
+.container-menu {
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+    
+.container-price {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 209px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading-price {
+    max-width: 300px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.card1 {
+    max-width: 320px;
+    
+}
+
+.card2 {
+    max-width: 320px;
+}
+
+.card3 {
+    max-width: 320px;
+    border-radius: 100px 0;
+    border: 10px solid #6FE8F0;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card2-card3 {
+    flex-direction: column;
+    max-width: 320px;
+    margin-top: 65px;
+    gap: 30px;
+}
+
+.text-price-card1 {
+    padding: 10px;
+}
+
+.down-text-card1 {
+    padding: 10px;
+}
+.price {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.swiper {
+    display: none;
+}
+
+.swiper-slide {
+    display: none;
+}
+
+.swiper-slide img {
+    display: none;
+}
+
+.text-card1 {
+    max-width: 300px;
+}
+
+.heading-card1{
+    font-size: 20px;
+    text-align: end;
+    margin-bottom: 28px;
+}
+
+.price-adult {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.left-text-price {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.left-text-price span {
+    color: #575353;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rigth-text-price {
+    color: #1B93B9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-text-praice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.button-price-card1 {
+    text-align: center;
+}
+
+.text-price-card1 {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.price-kids {
+    width: 250px;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.price-baby {
+    width: 200px;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.down-text-card1 {
+    max-width: 300px;
+    color: #6C6969;
+}
+
+.headin-card2 {
+    width: 152px;
+    text-align: center;
+}
+
+.container-card2 {
+    display: flex;
+    justify-content: center;
+}
+
+.price-card2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-price-card3 {
+    margin: 0 auto;
+}
+
+.button-price-card2 {
+    display: flex;
+    justify-content: end;
+}
+
+.img-aqua img{
+    max-width: 350px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.heading-info {
+    font-size: 20px;
+}
+
+.heading-info1 {
+    max-width: 300px;
+    font-size: 15px;
+}
+
+.main-text-info {
+    max-width: 300px;
+}
+
+}
