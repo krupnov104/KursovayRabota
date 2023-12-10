@@ -18,16 +18,16 @@ body {
 header {
     height: 80px;
     background: #7A85EF;
-    display: flex;
+    /*display: flex;*/
 }
 
 .header_inner {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
-    gap: 250px;
+    margin: 0 100px;
+    /*gap: 250px;*/
 }
 
 nav ul {
@@ -45,6 +45,18 @@ nav a {
     line-height: normal;
 }
 
+.burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.open {
+    display: flex !important;
+    opacity: 0.9;
+}
 .nomer {
     display: flex;
     align-items: center;
@@ -112,7 +124,7 @@ nav a {
 }
 
 .container-price {
-    width: 1436px;
+    max-width: 1436px;
     margin: 0 auto;
     margin-bottom: 209px;
 }
@@ -163,7 +175,8 @@ nav a {
 .card2-card3 {
     display: flex;
     justify-content: space-between;
-    width: 1436px;
+    max-width: 1400px;
+    margin: 0 auto;
     margin-top: 70px;
 }
 /*  */
@@ -318,7 +331,7 @@ nav a {
 }
 
 .container-info {
-    width: 1680px;
+    max-width: 1680px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -398,8 +411,59 @@ footer {
     font-weight: 700;
 }
 
+#vk img{
+    width: 31px;
+}
+
+
 
 @media (min-width: 425px) and (max-width: 768px) {
+
+    .header_inner {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        max-width: 700px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 0 40px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .nomer {
+        display: none;
+    }
+
+    .menu-list {
+        display: flex;
+        align-items: center;
+    }
+
+    #header {
+        max-width: 525px;
+    }
+
+    /*.container-header-logo-nav {*/
+    /*    max-width: 685px;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    gap: 40px;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+
     .main-container {
         flex-direction: column;
         padding: 90px 0 0 0;
@@ -624,31 +688,191 @@ footer {
     .main-text-info {
         max-width: 650px;
     }
+
+    .messengers {
+        width: 90px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .nomer-footer {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .email {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .container-footer {
+        max-width: 600px;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .logo-footer img {
+        max-width: 100px;
+    }
+
+    .messengers img {
+        max-width: 20px;
+    }
+
+    .picture-phone img {
+        max-width: 20px;
+    }
+
+    .picture-email img {
+        max-width: 20px;
+    }
+
+    .container-footer2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        gap: 50px;
+    }
+
+    .contakty {
+        max-width: 245px;
+    }
+
+    #footer {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
-@media (max-width: 450px) {
-.main-container {
-    flex-direction: column;
-    padding: 90px 0 0 0;
-    gap: 30px;
-    max-width: 320px;
-    margin: 0 auto;
+@media (max-width: 1500px) {
+    .test {
+        width: 520px;
+        height: 450px;
+    }
+
+    .main-knopka {
+        margin-bottom: 20px;
+    }
+
+    .main-container {
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .container-price {
+        margin-bottom: 100px;
+    }
+
+    .heading-price {
+        margin-right: 30px;
+    }
+
+    .img-aqua img {
+        width: 800px;
+    }
+
+    .container-info {
+        max-width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .heading-info {
+        color: #FFF;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .heading-info1 {
+        max-width: 600px;
+        color: #FAA500;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .main-text-info {
+        max-width: 600px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .text-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 600px;
+    }
 }
 
-.main {
-    max-width: 450px;
-}
-.main-picture img {
-    display: none;
-}
-.name-aqua {
-    font-size: 40px;
-    -webkit-text-stroke: 4px #fff;
-}
-.main-orange-text {
-    font-size: 11px;
-    margin-bottom: 10px;
-}
+@media (max-width: 425px) {
+
+    .header_inner {
+        margin: 0 auto;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .nomer {
+        display: none;
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 90px 0 0 0;
+        gap: 30px;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .main {
+        max-width: 450px;
+    }
+    .main-picture img {
+        display: none;
+    }
+    .name-aqua {
+        font-size: 40px;
+        -webkit-text-stroke: 4px #fff;
+    }
+
+    .main-orange-text {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: #151515;
+    }
+
+    .burger {
+        display: flex;
+    }
 
 .main-orange-text1 {
     width: 550px;
@@ -863,4 +1087,63 @@ footer {
     max-width: 300px;
 }
 
+    .messengers {
+        width: 90px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .nomer-footer {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .email {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .container-footer {
+        max-width: 400px;
+    }
+
+    .logo-footer img {
+        max-width: 100px;
+    }
+
+    .messengers img {
+        max-width: 20px;
+    }
+
+    .picture-phone img {
+        max-width: 20px;
+    }
+
+    .picture-email img {
+        max-width: 20px;
+    }
+
+    .container-footer2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .contakty {
+        max-width: 245px;
+    }
+
+    #footer {
+        margin-bottom: 20px;
+    }
 }
