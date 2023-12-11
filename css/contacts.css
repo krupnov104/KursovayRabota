@@ -158,6 +158,10 @@ footer {
 
 @media (max-width: 425px) {
 
+    .name-pages {
+        font-size: 60px;
+    }
+
     .header-inner {
         margin: 0 21px;
         gap: 90px;
@@ -200,16 +204,20 @@ footer {
     }
 
     .pochta {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .rrr {
         display: flex;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
     }
 
     .graphic {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    body {
+        overflow: hidden;
     }
 }

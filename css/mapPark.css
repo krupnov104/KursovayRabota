@@ -360,4 +360,78 @@ footer {
     .nomer {
         display: none;
     }
+
+
+
+    .container-footer {
+        max-width: 400px;
+    }
+
+    .logo-footer img {
+        max-width: 100px;
+    }
+
+    .messengers img {
+        max-width: 20px;
+    }
+
+    .picture-phone img {
+        max-width: 20px;
+    }
+
+    .picture-email img {
+        max-width: 20px;
+    }
+
+    .container-footer2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .contakty {
+        max-width: 245px;
+    }
+
+    #footer {
+        margin-bottom: 20px;
+    }
+
+    .name-pages {
+        font-size: 20px;
+    }
+
+    .main-white-text1 {
+        max-width: 360px;
+    }
+
+    .parameters {
+        max-width: 360px;
+    }
+
+    .messengers {
+        width: 90px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .nomer-footer {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .email {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 700;
+    }
 }
