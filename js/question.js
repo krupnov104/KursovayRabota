@@ -18,3 +18,5 @@ for (let i = 0; i < questionAll.length; i++) {
         e.classList.add('color');
     })
 }
+
+
