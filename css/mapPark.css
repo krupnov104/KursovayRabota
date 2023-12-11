@@ -19,11 +19,15 @@ body {
 header {
     height: 80px;
     background: #7A85EF;
-    display: flex;
+    /*display: flex;*/
 }
 
-.header_inner {
-    margin: 0 auto;
+.burger {
+    display: none;
+}
+
+.header-inner {
+    /*margin: 0 auto;*/
     display: flex;
     justify-content: space-between;
     align-items: center;

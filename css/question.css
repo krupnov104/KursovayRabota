@@ -85,7 +85,7 @@ nav a {
 }
 
 .question {
-    width: 1598px;
+    width: 1600px;
     height: 50px;
     border-radius: 30px;
     background: #FFF;
@@ -189,5 +189,12 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 700;
+}
+
+@media (max-width: 1600px) {
+    .question {
+        width: 1400px;
+        gap: 1080px;
+    }
 }
 
