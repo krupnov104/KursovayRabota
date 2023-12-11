@@ -8,13 +8,13 @@ let twoPrice = document.querySelector('.two-price');
 let twoTicket = document.querySelector('.two-ticket');
 let threePrice = document.querySelector('.three-price');
 let threeTicket = document.querySelector('.three-ticket');
-let res = document.querySelector('#res')
+let res = document.querySelector('#res');
 let service1 = document.querySelectorAll('.service1');
 let textService = document.querySelector('.text-service');
 let price1 = document.querySelector('#price1');
 let price2 = document.querySelector('#price2');
 let button = document.querySelector('.button');
-let email = document.querySelector('.input-email')
+let email = document.querySelector('.input-email');
 
 var clickCount = 0;
 service.addEventListener ('click', ()=> {

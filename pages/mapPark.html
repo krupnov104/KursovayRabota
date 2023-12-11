@@ -13,19 +13,24 @@
     <div class="wrapper">
 
         <header>
-            <div class="header_inner">
+            <div class="header-inner">
+
                 <div class="logo">
                     <div><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></div>
                 </div>
 
-                <nav>
-                    <ul>
-                        <li><a href="mapPark.html">КАРТА ПАРКА</a></li>
-                        <li><a href="../index.html #price">ТАРИФЫ</a></li>
-                        <li><a href="contacts.html">КОНТАКТЫ</a></li>
-                        <li><a href="question.html">ВОПРОС ОТВЕТ</a></li>
+                <nav id="header">
+                    <ul class="menu-list">
+                        <li><a href="../pages/mapPark.html">КАРТА ПАРКА</a></li>
+                        <li><a href="../index.html#price">ТАРИФЫ</a></li>
+                        <li><a href="../pages/contacts.html">КОНТАКТЫ</a></li>
+                        <li><a href="../pages/question.html">ВОПРОС ОТВЕТ</a></li>
                     </ul>
                 </nav>
+
+                <div class="burger">
+                    <img src="../img/white-menu.svg" alt="menu">
+                </div>
 
                 <div class="nomer">
                     <p>+ 7 (495) 232-23-45</p>
@@ -103,56 +108,59 @@
 
         <footer>
             <div class="footer">
-                <div class="logo-footer">
-                    <a href="../index.html"><img src="../img/logo-footer.png" alt="logo"></a>
+                <div class="container-footer">
+                    <div class="container-footer2">
+                        <div class="logo-footer">
+                            <a href="#"><img src="../img/logo-footer.png" alt="logo"></a>
+                        </div>
+
+                        <div class="contakty">
+                            <div class="messengers">
+
+                                <div>
+                                    <a href="#"><img src="../img/Facebook.png" alt="Facebook"></a>
+                                </div>
+
+                                <div>
+                                    <a href="#"><img src="../img/Twitter.png" alt="Twitter"></a>
+                                </div>
+
+                                <div id="vk">
+                                    <a href="#"><img src="../img/vk.png" alt="vk"></a>
+                                </div>
+
+                            </div>
+
+                            <div class="nomer-footer">
+                                <div class="picture-phone">
+                                    <img src="../img/Символ%20телефона.png" alt="phone">
+                                </div>
+
+                                <div class="nomer-telephone">
+                                    <h2>+ 7 (495) 232-23-45</h2>
+                                </div>
+                            </div>
+
+                            <div class="email">
+                                <div class="picture-email">
+                                    <img src="../img/Значок%20почты.png" alt="email">
+                                </div>
+
+                                <div class="email-footer">
+                                    <h2>splashaqua@gmail.com</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav id="footer">
+                        <ul>
+                            <li ><a href="../index.html#price">ТАРИФЫ</a></li>
+                            <li ><a href="../pages/contacts.html">КОНТАКТЫ</a></li>
+                            <li ><a href="../pages/question.html">ВОПРОС ОТВЕТ</a></li>
+                        </ul>
+                    </nav>
                 </div>
-    
-                <div class="contakty">
-                    <div class="messengers">
-    
-                        <div>
-                            <a href="#"><img src="../img/Facebook.png" alt="Facebook"></a>
-                        </div>
-    
-                        <div>
-                            <a href="#"><img src="../img/Twitter.png" alt="Twitter"></a>
-                        </div>
-    
-                        <div>
-                            <a href="#"><img src="../img/Instagram.png" alt="Instagram"></a>
-                        </div>
-    
-                    </div>
-    
-                    <div class="nomer-footer">
-                        <div class="picture-phone">
-                            <img src="../img/Символ телефона.png" alt="phone">
-                        </div>
-    
-                        <div class="nomer-telephone">
-                            <h2>+ 7 (495) 232-23-45</h2>
-                        </div>
-                    </div>
-    
-                    <div class="email">
-                        <div class="picture-email">
-                            <img src="../img/Значок почты.png" alt="email">
-                        </div>
-    
-                        <div class="email-footer">
-                            <h2>splashaqua@gmail.com</h2>
-                        </div>
-                    </div>
-                </div>
-    
-                <nav>
-                    <ul>
-                        <li><a href="../index.html #price">ТАРИФЫ</a></li>
-                        <li><a href="contacts.html">КОНТАКТЫ</a></li>
-                        <li><a href="question.html">ВОПРОС ОТВЕТ</a></li>
-                    </ul>
-                </nav>
-    
             </div>
         </footer>
     </div>
@@ -160,5 +168,6 @@
     
 
     <script src="../js/scriptMap.js"></script>
+    <script src="../js/burger-menu.js"></script>
 </body>
 </html>

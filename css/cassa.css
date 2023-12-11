@@ -25,6 +25,7 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    gap: 190px;
     align-items: center;
     padding: 24px 0;
 }

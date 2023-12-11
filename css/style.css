@@ -57,6 +57,7 @@ nav a {
     display: flex !important;
     opacity: 0.9;
 }
+
 .nomer {
     display: flex;
     align-items: center;
@@ -380,11 +381,26 @@ footer {
     align-items: center;
 }
 
+.container-footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 770px;
+    width: 100%;
+}
+
 .contakty {
     width: 346px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 15px;
 }
 
 .messengers {
@@ -414,8 +430,6 @@ footer {
 #vk img{
     width: 31px;
 }
-
-
 
 @media (min-width: 425px) and (max-width: 768px) {
 
@@ -715,7 +729,7 @@ footer {
     }
 
     .container-footer {
-        max-width: 600px;
+        max-width: 470px;
         flex-direction: column-reverse;
         display: flex;
     }
@@ -818,6 +832,10 @@ footer {
         align-items: center;
         gap: 20px;
         max-width: 600px;
+    }
+
+    .container-footer2 {
+        max-width: 650px;
     }
 }
 
