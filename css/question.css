@@ -20,16 +20,29 @@ body {
 header {
     height: 80px;
     background: #7A85EF;
-    display: flex;
+    /*display: flex;*/
 }
 
 .header_inner {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
-    gap: 250px;
+    margin: 0 100px;
+    /*gap: 250px;*/
+}
+
+.burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.open {
+    display: flex !important;
+    opacity: 0.9;
 }
 
 nav ul {
@@ -177,3 +190,4 @@ footer {
     font-size: 18px;
     font-weight: 700;
 }
+
