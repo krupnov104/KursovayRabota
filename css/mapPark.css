@@ -22,6 +22,11 @@ header {
     /*display: flex;*/
 }
 
+.open {
+    display: flex !important;
+    opacity: 0.9;
+}
+
 .burger {
     display: none;
 }
@@ -315,8 +320,8 @@ footer {
 
 @media (max-width: 425px) {
 
-    .header_inner {
-        margin: 0 0 ;
+    .header-inner {
+        margin: 0 21px;
         gap: 90px;
         justify-content: space-between;
     }

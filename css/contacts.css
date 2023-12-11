@@ -27,6 +27,12 @@ header {
     display: none;
 }
 
+
+.open {
+    display: flex !important;
+    opacity: 0.9;
+}
+
 .header-inner {
     /*margin: 0 auto;*/
     display: flex;
@@ -148,4 +154,62 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 700;
+}
+
+@media (max-width: 425px) {
+
+    .header-inner {
+        margin: 0 21px;
+        gap: 90px;
+        justify-content: space-between;
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 90px 0 0 0;
+        gap: 30px;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .main-picture {
+        max-width: 420px;
+        background-size: 320px;
+    }
+
+    .menu-list {
+        display: none;
+        justify-content: start;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 0;
+        background-color: #151515;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nomer {
+        display: none;
+    }
+
+    .pochta {
+        font-size: 16px;
+    }
+
+    .rrr {
+        display: flex;
+        font-size: 16px;
+        color: white;
+    }
+
+    .graphic {
+        font-size: 16px;
+    }
 }
